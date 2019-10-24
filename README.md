@@ -27,19 +27,14 @@ unzip terraform_0.12.12_linux_amd64
 mv terraform /usr/bin
 ```
 
-### Installing
+### Usage
 
 
 ```
+terraform init
 terraform plan
+terraform apply
 ```
-
-And repeat
-
-```
-terraform apply 
-```
-
 Output:
 ```
 Plan: 7 to add, 0 to change, 0 to destroy.
